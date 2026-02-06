@@ -28,5 +28,7 @@ void tampilkanBiodata(
   print("Umur: $umur");
   print("Status Anggota: $statusAnggota");
   print("Buku Favorit: $bukuFavorit");
-  print("Kontak: $kontak");
+  print("Alamat: ${kontak['alamat']}");
+  print("Profesi: ${kontak['profesi']}");
+  print("Email: ${kontak['email']}");
 }
