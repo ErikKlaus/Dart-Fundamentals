@@ -10,7 +10,7 @@ void main() {
     'email': 'erikklaus27@gmail.com',
   };
 
-  ///Memanggil fungsi untuk menampilkan biodata
+  ///Mengirim data Biodata ke fungsi tampilkanBiodata
   tampilkanBiodata(nama, umur, statusAnggota, bukuFavorit, kontak);
 }
 
