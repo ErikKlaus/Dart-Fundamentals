@@ -1,6 +1,5 @@
 void main() {
-  //Memanggil fungsi tampilkanBiodata
-  //Deklarasi dan inisialisasi variabel
+  ///Data Biodata Anggota Klub Buku Digital
   String nama = "Erik Klaus Keifas Kalalo";
   int umur = 20;
   bool statusAnggota = true;
@@ -11,16 +10,19 @@ void main() {
     'email': 'erikklaus27@gmail.com',
   };
 
+  ///Memanggil fungsi untuk menampilkan biodata
   tampilkanBiodata(nama, umur, statusAnggota, bukuFavorit, kontak);
 }
 
 void tampilkanBiodata(
+  //Deklarasi dan inisialisasi variabel
   String nama,
   int umur,
   bool statusAnggota,
   List<String> bukuFavorit,
   Map<String, dynamic> kontak,
 ) {
+  /*Menampilkan biodata anggota klub buku digital*/
   print("Biodata Anggota Klub Buku Digital");
   print("Nama: $nama");
   print("Umur: $umur");
