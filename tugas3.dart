@@ -5,7 +5,7 @@ void main() {
   print("PROGRAM PERULANGAN DART");
   print("1. Soal 1\n2. Soal 2\n3. Soal 3\n4. Soal 4\n5. Soal 5\n6. Keluar");
   stdout.write("Masukkan Angka (1-6): ");
-  int? menu = int.parse(stdin.readLineSync()!);
+  int menu = int.parse(stdin.readLineSync()!);
   print("");
 
   //Logika Soal Nomor 1
@@ -13,7 +13,7 @@ void main() {
     for (int i = 1; i <= 20; i++) {
       if (i % 2 == 0) {
       } else {
-        print("$i");
+        stdout.write("$i ");
       }
     }
     print("");
@@ -22,12 +22,8 @@ void main() {
   } else if (menu == 2) {
     int baris = 5;
     for (int i = 1; i <= baris; i++) {
-      for (int j = 1; j <= i; j++) {
-        stdout.write("*");
-      }
-      print("");
+      stdout.write("*");
     }
-    print("");
 
     //Logika Soal Nomor 3
   } else if (menu == 3) {
