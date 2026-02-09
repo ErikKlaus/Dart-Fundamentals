@@ -5,7 +5,7 @@ void main() {
   print("SISTEM PENILAIAN KELULUSAN MAHASISWA");
   print("=====================================");
   stdout.write("Masukkan Nama Mahasiswa: ");
-  String nama = stdin.readLineSync()!;
+  String? nama = stdin.readLineSync()!;
   stdout.write("Masukkan Nilai UTS: ");
   int uts = int.parse(stdin.readLineSync()!);
   stdout.write("Masukkan Nilai UAS: ");
