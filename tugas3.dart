@@ -22,7 +22,7 @@ void main() {
   } else if (menu == 2) {
     int baris = 5;
     for (int i = 1; i <= baris; i++) {
-      stdout.write("*");
+      stdout.write("* ");
     }
 
     //Logika Soal Nomor 3
